@@ -1,0 +1,1 @@
+"""Componentele interfeței Tkinter."""

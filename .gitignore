@@ -1,0 +1,64 @@
+# Medii virtuale
+/.venv/
+/.venv314/
+/venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cache-uri și rezultate ale testelor
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Build, executabile și installer compilat
+/build/
+/dist/
+*.egg-info/
+*.exe
+*.msi
+
+# Backup-uri și profile locale
+/backup/
+*_Profile/
+*PackagingTest*
+
+# Baze SQLite și fișiere auxiliare
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Documente DOCX reale/de test, cu excepția șabloanelor demonstrative din demo_templates/
+*.docx
+!/demo_templates/*.docx
+!/demo_templates/**/*.docx
+
+# Secrete, chei și configurații locale
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.secret
+*credentials*.json
+*secrets*.json
+
+# Loguri, backup-uri și capturi temporare
+*.log
+*.tmp
+*.bak
+*.backup
+*.old
+*_diag.jsonl
+.DS_Store
+Thumbs.db

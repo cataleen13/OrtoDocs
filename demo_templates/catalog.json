@@ -1,0 +1,20 @@
+{
+  "catalog_version": 1,
+  "diagnoses": [
+    {
+      "key": "coxartroza-demo",
+      "name": "Coxartroză (Exemplu demonstrativ)",
+      "code": "M16.1",
+      "epicrisis_path": "epicrize/coxartroza_demo.docx"
+    }
+  ],
+  "interventions": [
+    {
+      "key": "artroplastie-sold-demo",
+      "diagnosis_key": "coxartroza-demo",
+      "name": "Artroplastie totală de șold (Exemplu demonstrativ)",
+      "code": "DEMO-01",
+      "protocol_path": "protocoale/artroplastie_sold_demo.docx"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+"""Aplicația locală OrtoDocs."""

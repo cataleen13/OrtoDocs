@@ -1,0 +1,1 @@
+"""Accesul la datele locale."""

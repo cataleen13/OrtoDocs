@@ -1,0 +1,33 @@
+{
+  "catalog_version": 1,
+  "diagnoses": [
+    {
+      "key": "coxartroza-bilaterala",
+      "name": "Coxartroză bilaterală",
+      "code": "M16.0",
+      "epicrisis_path": "epicrize/coxartroza_bilaterala.docx"
+    },
+    {
+      "key": "gonartroza-stanga",
+      "name": "Gonartroză stângă",
+      "code": "M17.1",
+      "epicrisis_path": "epicrize/gonartroza_stanga.docx"
+    }
+  ],
+  "interventions": [
+    {
+      "key": "proteza-totala-sold",
+      "diagnosis_key": "coxartroza-bilaterala",
+      "name": "Artroplastie totală de șold",
+      "code": "ORT-001",
+      "protocol_path": "protocoale/proteza_totala_sold.docx"
+    },
+    {
+      "key": "proteza-totala-genunchi",
+      "diagnosis_key": "gonartroza-stanga",
+      "name": "Artroplastie totală de genunchi",
+      "code": "ORT-002",
+      "protocol_path": "protocoale/proteza_totala_genunchi.docx"
+    }
+  ]
+}

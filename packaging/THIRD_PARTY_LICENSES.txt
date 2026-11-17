@@ -1,0 +1,41 @@
+OrtoDocs — Notificări și licențe ale componentelor terțe
+===========================================================
+
+Această distribuție OrtoDocs include componente software terțe sub
+licențele de mai jos. Textele integrale ale licențelor se află în
+directorul „licenses” al acestei instalări.
+
+1. tk_date_entry (versiunea 1.1.0)
+   Autor / Copyright: Copyright (c) 2024-2025 Ircama
+   Licență: European Union Public Licence v. 1.2 (EUPL-1.2)
+   Pagina proiectului și codul sursă: https://github.com/Ircama/tk_date_entry
+   Text integral: licenses\tk_date_entry-EUPL-1.2-LICENSE.txt
+   Notă: Furnizat „AS IS”, fără garanții, în termenii Art. 7 și 8 EUPL-1.2.
+   Codul sursă complet pentru tk_date_entry este disponibil gratuit la
+   adresa repository-ului oficial indicată mai sus (Art. 5 EUPL-1.2).
+
+2. python-docx (versiunea 1.2.0)
+   Copyright (c) 2013 Steve Canny
+   Licență: MIT License
+   Text integral: licenses\python-docx-MIT-LICENSE.txt
+
+3. lxml (versiunea 6.1.3)
+   Copyright (c) 2004 Infrae
+   Licență: BSD 3-Clause License
+   Text integral: licenses\lxml-BSD-LICENSE.txt
+   Biblioteci native incluse în pachetul binar lxml:
+   - libxml2 (MIT)
+   - libxslt (MIT)
+   - libexslt (MIT)
+   - zlib (zlib License)
+   - libiconv (LGPL 2.1)
+   Detalii și notificări complete: licenses\lxml-THIRD_PARTY-LICENSES.txt
+
+4. typing_extensions (versiunea 4.16.0)
+   Licență: Python Software Foundation License Version 2 (PSF-2.0)
+   Text integral: licenses\typing_extensions-PSF-LICENSE.txt
+
+5. Runtime Python 3.14.10, Tcl/Tk 9.0.4 și SQLite
+   - Python 3.14: Python Software Foundation License Version 2 (PSF-2.0)
+   - Tcl/Tk 9.0: Tcl/Tk License (BSD-style)
+   - SQLite: Public Domain
