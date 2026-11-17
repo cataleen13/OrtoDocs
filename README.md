@@ -15,14 +15,14 @@ OrtoDocs oferă un flux unitar, complet local (fără servere externe și fără
 
 1. Șabloanele `.docx` editate offline sunt validate strict și sincronizate atomic într-o bază de date SQLite locală.
 2. Utilizatorul selectează diagnosticul și intervenția, completează un formular dinamic generat automat din variabilele șabloanelor și obține simultan cele două documente formatate (*Epicriză + Recomandări* și *Protocol operator*).
-3. Documentele generate pot fi revizuite, editate Rich Text și copiate în clipboard sau exportate ulterior din istoric.
+3. Documentele generate pot fi editate în editorul Rich Text integrat, salvate și redeschise din istoricul local, iar conținutul formatat poate fi copiat în Word sau LibreOffice.
 
 ---
 
 ## Funcționalități principale
 
 - **Generare documente în 3 pași:** căutare după denumire sau cod pentru diagnostic și intervenție, formular cu câmpuri standard și câmpuri dinamice detectate din șabloane, scroll cu mouse-ul/touchpad-ul și validare imediată.
-- **Editor Rich Text integrat:** previzualizare și ajustare locală a documentelor generate (Bold, Italic, Subliniat, aliniere, copiere formatată în Word / LibreOffice și export `.docx`).
+- **Editor Rich Text integrat:** editare locală a documentelor generate (Bold, Italic, Subliniat, aliniere), salvare locală și copiere formatată a conținutului în Word sau LibreOffice.
 - **Administrare și sincronizare offline a șabloanelor Word:** validare prin `catalog.json` + hash SHA-256, oprirea sincronizării la erori/avertismente (inclusiv blocarea token-urilor de identificare pacient în șabloane), backup automat înainte de aplicare și păstrarea istoricului versiunilor.
 - **Istoric local:** consultarea și redeschiderea sesiunilor recente generate pe stația locală.
 - **Stocare locală independentă:** datele utilizatorului (`%LOCALAPPDATA%\OrtoDocs\ortodocs.db`, backup-uri și șabloane sincronizate) rămân separate de directorul aplicației și supraviețuiesc upgrade-urilor sau dezinstalării.
@@ -65,7 +65,7 @@ OrtoDocs/
 │   └── ortodocs/
 │       ├── main.py          # Punct de intrare al aplicației și configurare DPI
 │       ├── models/          # Modele de date (generare, documente Rich Text, rapoarte import)
-│       ├── services/        # Import DOCX, substituție token-uri, sincronizare, generare, export
+│       ├── services/        # Import DOCX, substituție token-uri, sincronizare și generare documente
 │       ├── storage/         # Conexiune SQLite, migrări și repository-uri
 │       └── ui/              # Shell Tkinter, cele 4 pagini, editor Rich Text, clipboard Windows
 ├── tests/                   # Suită de teste automate (unittest)
